@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+img {
+    float:left;
+    max-width:100%;
+    max-height:100%;
+}
+p {
+    text-align: center;
+}
+.mainBlock {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+#header {
+    height: 10vh;
+    width: 100%;
+}
+#contentSection {
+    flex: auto;
+}
+#footer {
+    
+    height: 15vh;
+    width: 100%;
+}
+#divForList {
+    text-align: center;
+}
+#first {
+    font-weight: bold;
+}
+#second {
+    font-style: italic;
+}
+#third {
+    text-decoration: underline;
+}
+#fifth {
+    color: red;
+}
